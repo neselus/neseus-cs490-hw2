@@ -1,0 +1,104 @@
+[
+  {
+    "attributes": {
+      "command": "dev",
+      "side": "[\"api\",\"web\"]",
+      "generate": true,
+      "watchNodeModules": false
+    },
+    "links": [],
+    "events": [],
+    "_droppedAttributesCount": 0,
+    "_droppedEventsCount": 0,
+    "_droppedLinksCount": 0,
+    "status": {
+      "code": 1
+    },
+    "endTime": [
+      1695165968,
+      992294400
+    ],
+    "_ended": true,
+    "_duration": [
+      0,
+      426294400
+    ],
+    "name": "cli",
+    "_spanContext": {
+      "traceId": "794c03c6705091bfca9591875536e1df",
+      "spanId": "4cea24d6d68c1662",
+      "traceFlags": 1
+    },
+    "kind": 0,
+    "_performanceStartTime": 599.254800000228,
+    "_performanceOffset": -0.468994140625,
+    "_startTimeProvided": false,
+    "startTime": [
+      1695165968,
+      566000000
+    ],
+    "resource": {
+      "_attributes": {
+        "service.name": "@redwoodjs/cli",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.15.0",
+        "service.version": "6.2.3",
+        "os.type": "Linux",
+        "os.version": "5.10",
+        "shell.name": "bash",
+        "node.version": "18.17.1",
+        "yarn.version": "3.6.3",
+        "npm.version": "9.6.7",
+        "vscode.version": "1.81.1",
+        "cpu.count": 4,
+        "memory.gb": 15,
+        "env.node_env": null,
+        "ci.redwood": false,
+        "ci.isci": false,
+        "complexity": "12.0.2.4.13",
+        "sides": "web,api",
+        "experiments": "[\"vite\"]",
+        "webBundler": "vite",
+        "uid": "7ce89981-6220-4861-a3e4-e777f90d4132"
+      },
+      "asyncAttributesPending": false,
+      "_syncAttributes": {
+        "service.name": "@redwoodjs/cli",
+        "telemetry.sdk.language": "nodejs",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.15.0",
+        "service.version": "6.2.3",
+        "os.type": "Linux",
+        "os.version": "5.10",
+        "shell.name": "bash",
+        "node.version": "18.17.1",
+        "yarn.version": "3.6.3",
+        "npm.version": "9.6.7",
+        "vscode.version": "1.81.1",
+        "cpu.count": 4,
+        "memory.gb": 15,
+        "env.node_env": null,
+        "ci.redwood": false,
+        "ci.isci": false,
+        "complexity": "12.0.2.4.13",
+        "sides": "web,api",
+        "experiments": "[\"vite\"]",
+        "webBundler": "vite",
+        "uid": "7ce89981-6220-4861-a3e4-e777f90d4132"
+      }
+    },
+    "instrumentationLibrary": {
+      "name": "redwoodjs"
+    },
+    "_spanLimits": {
+      "attributeValueLengthLimit": null,
+      "attributeCountLimit": 128,
+      "linkCountLimit": 128,
+      "eventCountLimit": 128,
+      "attributePerEventCountLimit": 128,
+      "attributePerLinkCountLimit": 128
+    },
+    "_attributeValueLengthLimit": null
+  }
+]

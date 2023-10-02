@@ -1,0 +1,17 @@
+Starting log:
+ - Time: 2023-10-02T01:13:44.158Z
+ - Name: updateCheck (updatecheck)
+ - Command: yarn
+ - Arguments: node /home/nese/cs490-hw2/node_modules/@redwoodjs/cli/dist/lib/updateCheckExecute.js
+
+Detected the current version of RedwoodJS: '6.2.3'
+Checking for new versions for npm tag: 'latest'
+Detected the latest versions of RedwoodJS as:
+[
+  [
+    "latest",
+    "6.3.1"
+  ]
+]
+Saving updated version information for future checks...
+Update Check: 1.525s
